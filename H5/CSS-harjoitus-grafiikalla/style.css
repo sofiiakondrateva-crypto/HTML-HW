@@ -1,0 +1,161 @@
+
+body {
+    font: 100%  "Helvetica Neue", Helvetica, Arial,  sans-serif;
+    background:  #7F98C3;
+    height: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+}
+
+p {
+    font-size: 85%;
+}
+
+#wrapper {
+    position: relative;
+    width: 700px;
+    margin: 0 auto 15px;
+    padding-bottom: 10px;
+    background: url(images/page_bottom.jpg) no-repeat center bottom ;
+}
+
+#container {
+    background: url(images/body_back.jpg) repeat-y ;
+    padding: 0 9px;
+    text-align: left;
+   
+}
+
+.mages {
+    position: absolute;
+    top : 0;
+    left: -65px;
+}
+
+#header {
+    background: #FFF;
+    padding: 40px 0 20px 150px;
+}
+
+a img {
+    border: none;
+}   
+
+#sidebar1 {
+    background: url(images/corner_tl.gif) no-repeat;
+    float: right;
+    width: 186px;
+    padding: 15px 20px 15px 20px;
+}
+
+#sidebar1 a {
+   font-weight: bold;
+}
+
+
+#mainContent {
+    margin: 0;
+    padding: 32px 20px 40px 25px;
+    width: 411px;
+    float:left;
+}
+
+#mainContent h1{
+    font-size: 180%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#mainContent h2{
+    font-size: 150%;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 35px;
+}
+
+.pod {
+   padding: 10px 5px 0 15px;
+   border: solid 1px #628958;
+   float: left;
+}
+
+#footer {
+    padding: 0 10px 0 20px;
+    background: #ffffff url(images/corner_br.jpg) no-repeat top right;
+}
+
+#footer p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+#overhang {
+    background: url(images/sm_flower.png) no-repeat;
+    position: relative;
+    width: 84px;
+    height: 100px;
+    top: 10px;
+    left: 611px;
+    padding: 70px 0 30px 0;
+}
+
+.fltrt {
+    /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+    float: right;
+    margin-left: 8px;
+}
+
+.fltlft {
+    /* this class can be used to float an element left in your page */
+    float: left;
+    margin-right: 8px;
+}
+
+.clearfloat {
+    /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+a:link{
+    color:#628958;
+}
+a:visited{
+    color: #666666;
+}
+a:hover{
+    color: #CE5441;
+    text-decoration: none;
+}
+a:active{
+    color: #CE5441;
+    text-decoration: none;
+}
+a:focus{
+    color: #CE5441;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #628958;
+    letter-spacing: -0.04 em;
+}
+
+h3{
+    font-size: 130%;
+}
+
+.firstletter {
+    color:#628958;
+    float: left;
+    font-size: 75px;
+    line-height: 50px;
+    padding: 4px 8px 0 0;
+    font-family: Georgia;
+}

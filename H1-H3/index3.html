@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 2</title>
+</head>
+
+<body>
+    <h1>Kuvat ja taulukot</h1>
+    <p>
+    <h2> <a href="index2.html" target="_blank">minun oma sivu</a>
+        <a href="index.html" target="_blank">Main page</a>
+    </h2>
+    </p>
+    <img src="img/photo_2024-12-06_10-08-48.jpg" alt="hamsterin kuva" width="200" height="230">
+
+    <br>
+    <a href="index2.html" target="_blank"> <img src="img/S8VY5u2.jpeg" alt="hamsterin kuva"
+            style="width:200px; height:230px;">
+    </a>
+
+    <br><br>
+    <form action="index3.html" method="get" target="_self">
+        <table border="1" width="60%">
+            <caption>
+                <h3>Personal information</h3>
+            </caption>
+            <tr>
+                <td><Label for="name">name</Label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><Label for="surname">surname</Label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><Label for="email">email</Label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><Label for="password">password</Label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><Label for="sex">sex</Label></td>
+                <td>
+                    <input type="radio"><Label for="sex">male</Label> <br>
+                    <input type="radio"> <Label for="sex">female</Label><br>
+                    <input type="radio"><Label for="sex">sexy</Label>
+                </td>
+            </tr>
+            <tr>
+                <td> <Label for="date">birthday date</Label></td>
+                <td> <input type="date"> </td>
+            </tr>
+            <tr>
+                <td> <Label for="tel">Special needs</Label></td>
+                <td> <textarea name="notes">start writing</textarea></td>
+            </tr>
+            <tr>
+                <td><Label for="Choose one">Choose one</Label></td>
+                <td>
+                    <select name="choice">
+                        <option value="1">one</option>
+                        <option value="2">two</option>
+                        <option value="3">three</option>
+                        <option value="4">four</option>
+                        <option value="5">five</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Almost done! <input type="button" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+    
+    <br>
+    <h2>My fav fruit list</h2>
+    <table border="1" width="50%">
+        <caption>Fruits and their origin</caption>
+
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Turkey</td>
+        </tr>
+        <tr>
+            <td>Strawberry</td>
+            <td>Colombia</td>
+        </tr>
+        <colgroup>
+            <col style="background-color:rgb(248, 227, 135)">
+            <col style="background-color:rgb(171, 227, 214)">
+        </colgroup>
+    </table>
+
+    <br>
+    <table border="1" width="20%">
+        <caption>September</caption>
+        <thead>
+            <tr>
+                <th>mon</th>
+                <th>tue</th>
+                <th>wen</th>
+                <th>thr</th>
+                <th>fry</th>
+                <th>sat</th>
+                <th>sun</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">Good luck!</td>
+            </tr>
+        </tfoot>
+        <colgroup>
+            <col style="background-color:rgb(255, 255, 255)">
+            <col style="background-color:rgb(255, 255, 255)">
+            <col style="background-color:rgb(255, 255, 255)">
+            <col style="background-color:rgb(253, 255, 255)">
+            <col style="background-color:rgb(255, 255, 253)">
+            <col style="background-color:rgb(238, 125, 129)">
+            <col style="background-color:rgb(238, 125, 129)">
+        </colgroup>
+    </table>
+
+    <h1>Linkki list</h1>
+    <h3>DISORDERED AND CHAOTIC LIST</h3>
+    <ul style="list-style-type:circle;">
+        <li><a href="index1.html" target="_blank">CSS</a></li>
+        <li><a href="index2.html">Side page lecture 1</a></li>
+        <li><a href="index3.html">Tables lecture 2</a></li>
+         <ul>
+            <li><a href="index.html" target="_blank">main2.0</a></li>
+            <li><a href="index2.html">Side page2.0 lecture 1</a></li>
+            <li><a href="index3.html">Tables lecture 2.0</a></li>
+         </ul>
+    </ul>
+
+    <h3>Full order list unchaotic</h3>
+    <ol type="1">
+        <li>yippi 1</li>
+        <li>yippi 2</li>
+        <li>yippi 3</li>
+    </ol>
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet nostrum consequuntur tempore eaque quidem optio enim magnam omnis assumenda, nisi facilis repellat fugiat incidunt magni, vitae voluptate? Autem, libero sapiente?
+</p>
+    <ol type="1" start="4">
+        <li >yippi 4</li>
+        <li>yippi 5</li>
+        <li>yippi 6</li>
+    </ol>
+
+    <ul style="list-style-type: disc;">
+    <dl>
+        <li><dt>Yippi</dt>
+            <dd>Yippi is a word that describes joy and excitement.</dd></li>
+        <li><dt>Dog</dt>
+            <dd>A dog is a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, and a barking, howling, or whining voice.</dd></li>
+        <li><dt>Cat</dt>
+            <dd>A cat is a small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws.</dd></li>
+    </dl>
+    </ul>
+
+</body>
+
+</html>
